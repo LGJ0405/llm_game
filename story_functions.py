@@ -7,7 +7,7 @@ load_dotenv()
 client = OpenAI()
 
 # 스토리의 구조 생성
-def story_structure(theme='복수', background='중세'):
+def story_structure(theme, background):
     content = f'''
 당신은 창의적이고 논리적인 판타지 스토리 시나리오 전문가입니다.
 
